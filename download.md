@@ -24,14 +24,15 @@ sudo apt-get install et
 
 # Debian
 
-For debian, use our deb repo.  For stretch:
+For Debian, use our deb repo.  For bullseye:
 
 ```
-echo "deb https://mistertea.github.io/debian-et/debian-source/ buster main" | sudo tee /etc/apt/sources.list.d/et.list
+echo "deb https://mistertea.github.io/debian-et/debian-source/ bullseye main" | sudo tee /etc/apt/sources.list.d/et.list
 curl -sS https://mistertea.github.io/debian-et/et.gpg | sudo apt-key add -
 sudo apt update
 sudo apt install et
 ```
+Repositories for stretch and bookworm are also available.
 
 # Other Linux/Unix
 
